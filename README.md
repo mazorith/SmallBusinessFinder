@@ -30,6 +30,12 @@ On Windows:
 python -m venv env
 ```
 
+Alternative for windows: 
+
+```
+py -m venv env
+```
+
 The second argument is the location to create the virtual environment. Generally, you can just create this in your project and call it env.
 
 
