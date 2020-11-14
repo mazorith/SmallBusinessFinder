@@ -21,7 +21,7 @@ There are a good amount of depencies for this project -- it will be good practic
 On macOS and Linux:
 
 ```
-python3 -m virtualenv env
+python3 -m venv env
 ```
 
 On Windows:
