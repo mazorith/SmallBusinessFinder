@@ -10,7 +10,7 @@ Deployed version can be found at https://zothacks-2020-fundamentals.herokuapp.co
 
 **👩‍👧 Clone repository**
 ```
-https://github.com/hackuci/zothacks-2020-backend
+git clone https://github.com/hackuci/zothacks-2020-backend
 cd zothacks-2020-backend
 ```
 
