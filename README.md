@@ -1,5 +1,8 @@
 # zothacks-2020-backend-fundamentals
 
+## Video Walkthrough
+https://youtu.be/T7oi5E-7reY
+
 ## Basic overview
 
 Basic Flask backend that has CRUD (Create, Read, Update, Delete) endpoints for a User that is stored in a Mongo Database
