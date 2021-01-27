@@ -1,7 +1,7 @@
 # zothacks-2020-backend-fundamentals
 
-## Video Walkthrough
-https://youtu.be/T7oi5E-7reY
+## Complete Video Walkthrough
+https://www.youtube.com/watch?v=vJfLDYl_tKs&list=PLsazy5nRW1ayvmwVjLRrCu6iD-Hes0LcC
 
 ## Basic overview
 
