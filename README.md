@@ -1,3 +1,6 @@
+using the bases of the backendfundamentals as the framework here
+following backendsteps below will get this working (will put together a guide later)
+
 # zothacks-2020-backend-fundamentals
 
 ## Complete Video Walkthrough

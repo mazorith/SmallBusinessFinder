@@ -4,7 +4,7 @@ import db
 from flask import Flask, json
 from flask_cors import CORS
 from flask_restful import Api
-from resources.user import User
+from resources.userHistory import UserHistory
 from dotenv import load_dotenv
 
 # Load Environment variables
@@ -21,13 +21,13 @@ app.json_encoder = util.MongoEncoder
 db.mongo.init_app(app)
 api = Api(app)
 
-api.add_resource(User, "/user")
+api.add_resource(UserHistory, "/userhistory")
 
 
 # Vanilla Flask route
 @app.route("/", methods=["GET"])
 def index():
-    return "Welcome to my ZotHacks 2020 project!"
+    return "Welcome to my ZotHacks 2021 project!"
 
 
 # Handles validation errors and returns JSON Object

@@ -16,10 +16,10 @@ def mongo_id_decoder(obj):
     try:
         return ObjectId(obj)
     except Exception:
-        raise ValidationError("Invalid User Id Format", "_id")
+        raise ValidationError("Invalid UserHistory Id Format", "_id")
 
 
-def validate_user_id(user_id):
-    user = mongo.db.user.find_one({"_id": ObjectId(user_id)})
-    if not user:
+def validate_userhistory_id(userhistory_id):
+    userhistory = mongo.db.userhistory.find_one({"_id": ObjectId(userhistory_id)})
+    if not userhistory:
         raise ValidationError("User Id Not Found", "_id")
