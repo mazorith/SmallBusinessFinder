@@ -1,7 +1,7 @@
 import os
 import util
 import db
-from flask import Flask, json
+from flask import Flask, json, url_for, redirect #requests
 from flask_cors import CORS
 from flask_restful import Api
 from resources.userHistory import UserHistory
@@ -23,11 +23,16 @@ api = Api(app)
 
 api.add_resource(UserHistory, "/userhistory")
 
-
 # Vanilla Flask route
 @app.route("/", methods=["GET"])
 def index():
-    return "Welcome to my ZotHacks 2021 project!"
+    return "Backend for SmallBusinesses"
+
+@app.route("/doaprogram/<id>", methods=["GET"])
+def doaprogram(id):
+    print("a program has run")
+    return redirect(url_for('index'))
+
 
 
 # Handles validation errors and returns JSON Object

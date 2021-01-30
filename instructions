@@ -1,0 +1,14 @@
+This is just a note file to keep track of stuff durring dev
+
+User0: 	TestUser0
+	Mxa3IhTvolAQhkNS
+
+	mongodb+srv://TestUser0:<password>@cluster0.1xmkh.mongodb.net/<dbname>?retryWrites=true&w=majority
+	MONGO_URI_MASTER="mongodb+srv://TestUser0:Mxa3IhTvolAQhkNS@cluster0.1xmkh.mongodb.net/SmallBusinessFinder?retryWrites=true&w=majority"
+
+	MONGO_URI_MASTER="mongodb+srv://TestUser0:Mxa3IhTvolAQhkNS@cluster0.1xmkh.mongodb.net/ZotHacksProject?retryWrites=true&w=majority"
+	MONGO_URI_WORKSHOP="mongodb+srv://hacker:0Q9k2%4sRzbP@cluster0.cp1ka.mongodb.net/zothacks2020?retryWrites=true&w=majority"
+
+
+create flask object 
+pass to CORS
